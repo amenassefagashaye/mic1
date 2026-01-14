@@ -74,7 +74,7 @@ const WS_CONFIG = {
             return 'ws://localhost:8000';
         }
         // Replace with your actual Deno Deploy URL
-        return 'wss://assefa-bingo.deno.dev';
+        return 'wss://ameng-gogs-mic2-36.deno.dev/;
     },
     protocols: ['bingo-protocol']
 };
@@ -1292,4 +1292,5 @@ function setupMobileTouchEvents() {
 }
 
 // Initialize on load
+
 window.addEventListener('DOMContentLoaded', init);
