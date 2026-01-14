@@ -69,12 +69,12 @@ const WS_CONFIG = {
     url: () => {
         // In production, this should be your Deno Deploy WebSocket URL
         // For local testing: 'ws://localhost:8000'
-        // For Deno Deploy: 'wss://your-project.deno.dev'
+        // For Deno Deploy: 'wss://ameng-gogs-mic2-36.deno.dev/'
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
             return 'ws://localhost:8000';
         }
         // Replace with your actual Deno Deploy URL
-        return 'wss://ameng-gogs-mic2-36.deno.dev/;
+        return 'wss://ameng-gogs-mic2-36.deno.dev/';
     },
     protocols: ['bingo-protocol']
 };
@@ -1294,3 +1294,4 @@ function setupMobileTouchEvents() {
 // Initialize on load
 
 window.addEventListener('DOMContentLoaded', init);
+
